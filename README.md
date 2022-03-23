@@ -21,8 +21,6 @@ Due to the 8-day default retention for event data, our users’ ability to under
 
 This script can be configured as a synthetic monitor to periodically query ingest and post it as a custom metric for longer storage, and thus, long-term querying and analysis.
 
-Originally developed for MercadoLibre, a live instance of this script is querying and pushing `newrelic.ingest` metrics to `Demotron V2`. You can query this data by setting `metricName`=`'newrelic.ingest'`.
-
 ![image](https://user-images.githubusercontent.com/68360819/148800863-e10d8c8f-aeee-43bc-82bb-790a4131b98b.png)
 
 
@@ -43,8 +41,7 @@ Once you have updated the script according to your needs, create the monitor as 
   5. Validate the script and confirm no errors
   6. Save the monitor
   7. Run test check and view data by querying
-      ``FROM Metric SELECT * WHERE metricName='newrelic.ingest'``
-  Filter on data types by using the `ingestType` attribute
+      ``FROM Metric SELECT * WHERE metricName='newrelic.ingest'``. Filter on data types by using the `ingestType` attribute
 
 **Note**: The Period you configure when setting up the script should match the value you set in the script’s `HOURS` variable - i.e., if the script is set to query ingest for the past hour (i.e., `HOURS` = 1), the script should run every hour so that the results also correspond to ingestion for the past hour.
 
