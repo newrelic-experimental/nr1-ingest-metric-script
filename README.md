@@ -21,7 +21,7 @@ Due to the 8-day default retention for event data, our users’ ability to under
 
 This script can be configured as a synthetic monitor to periodically query ingest and post it as a custom metric for longer storage, and thus, long-term querying and analysis.
 
-![image](https://user-images.githubusercontent.com/68360819/148800863-e10d8c8f-aeee-43bc-82bb-790a4131b98b.png)
+![148800863-e10d8c8f-aeee-43bc-82bb-790a4131b98b](https://user-images.githubusercontent.com/68360819/159800504-4ee62f26-2a1c-45d3-9b53-a4d738081e5b.png)
 
 
 ## getting started
