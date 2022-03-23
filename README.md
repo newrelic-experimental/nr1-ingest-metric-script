@@ -1,7 +1,7 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
 # nr1-ingest-metric-script  <br>
-create custom metric via synthetic script to capture New Relic One ingest
+Create custom metric via synthetic script to capture New Relic One ingest
 
 
 ## tl;dr
@@ -37,7 +37,7 @@ This script can be configured as a synthetic monitor to periodically query inges
 Once you have updated the script according to your needs, create the monitor as follows:
   1. Select Endpoint availability (Scripted API)
   2. Name your monitor and configure the Period
-  4. Select a location (any)
+  4. Select a location (any but only _one_)
   5. Validate the script and confirm no errors
   6. Save the monitor
   7. Run test check and view data by querying
