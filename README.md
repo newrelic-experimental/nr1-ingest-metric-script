@@ -91,5 +91,5 @@ As noted in our [security policy](../../security/policy), New Relic is committed
 If you believe you have found a security vulnerability in this project or any of New Relic's products or websites, we welcome and greatly appreciate you reporting it to New Relic through [HackerOne](https://hackerone.com/newrelic).
 
 ## license
-[Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+nr1-ingest-metric-script is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
 >[If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
