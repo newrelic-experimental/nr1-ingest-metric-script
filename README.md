@@ -66,12 +66,6 @@ A dashboard for the custom metric is available in `dashboard.json`
 ![ingest-infrahosts](https://user-images.githubusercontent.com/68360819/151472717-39152e08-c9f3-4cf9-9517-a63b73a6643d.png)
 
 
-
-## thank u
-Andrew Lozoya for providing the original script to publish a custom event to the Event API<br>
-Sam Chung for your troubleshooting genius
-
-
 ---
 
 ## support
@@ -86,7 +80,7 @@ Issues and enhancement requests can be submitted in the Issues tab of this repos
 We encourage your contributions to improve nr1-ingest-metric-script! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@newrelic.com.
 
-**A note about vulnerabilities**
+**a note about vulnerabilities**
 
 As noted in our [security policy](../../security/policy), New Relic is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
