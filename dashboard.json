@@ -24,7 +24,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' FACET ingestType since this month"
                 }
               ]
@@ -51,7 +51,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' FACET ingestType since 1 month ago timeseries"
                 }
               ],
@@ -78,7 +78,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' FACET appName since this month"
                 }
               ]
@@ -105,7 +105,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' FACET appName since 1 month ago timeseries"
                 }
               ],
@@ -132,7 +132,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' FACET hostname since this month"
                 }
               ]
@@ -159,7 +159,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' FACET hostname since 1 month ago timeseries"
                 }
               ],
@@ -208,7 +208,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='APM Events' FACET appName since today"
                 }
               ]
@@ -232,7 +232,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='APM Events' FACET appName since today"
                 }
               ]
@@ -256,7 +256,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='APM Events' FACET appName since this week"
                 }
               ]
@@ -280,7 +280,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='APM Events' FACET appName since this week"
                 }
               ]
@@ -304,7 +304,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='APM Events' FACET appName since this month"
                 }
               ]
@@ -328,7 +328,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='APM Events' FACET appName since this month"
                 }
               ]
@@ -374,7 +374,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Metrics' FACET appName since today"
                 }
               ]
@@ -398,7 +398,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Metrics' FACET appName since today"
                 }
               ]
@@ -422,7 +422,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Metrics' FACET appName since this week"
                 }
               ]
@@ -446,7 +446,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Metrics' FACET appName since this week"
                 }
               ]
@@ -470,7 +470,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Metrics' FACET appName since this month"
                 }
               ]
@@ -494,7 +494,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Metrics' FACET appName since this month"
                 }
               ]
@@ -540,7 +540,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Browser Events' FACET appName since today"
                 }
               ]
@@ -564,7 +564,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Browser Events' FACET appName since today"
                 }
               ]
@@ -588,7 +588,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Browser Events' FACET appName since this week"
                 }
               ]
@@ -612,7 +612,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Browser Events' FACET appName since this week"
                 }
               ]
@@ -636,7 +636,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Browser Events' FACET appName since this month"
                 }
               ]
@@ -660,7 +660,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Browser Events' FACET appName since this month"
                 }
               ]
@@ -706,7 +706,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Tracing' FACET appName since today"
                 }
               ]
@@ -730,7 +730,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Tracing' FACET appName since today"
                 }
               ]
@@ -754,7 +754,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Tracing' FACET appName since this week"
                 }
               ]
@@ -778,7 +778,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Tracing' FACET appName since this week"
                 }
               ]
@@ -802,7 +802,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Tracing' FACET appName since this month"
                 }
               ]
@@ -826,7 +826,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Tracing' FACET appName since this month"
                 }
               ]
@@ -872,7 +872,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Mobile Events' FACET appName since today"
                 }
               ]
@@ -896,7 +896,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Mobile Events' FACET appName since today"
                 }
               ]
@@ -920,7 +920,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Mobile Events' FACET appName since this week"
                 }
               ]
@@ -944,7 +944,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Mobile Events' FACET appName since this week"
                 }
               ]
@@ -968,7 +968,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Mobile Events' FACET appName since this month"
                 }
               ]
@@ -992,7 +992,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Mobile Events' FACET appName since this month"
                 }
               ]
@@ -1038,7 +1038,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Processes' FACET hostname since today"
                 }
               ]
@@ -1062,7 +1062,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Processes' FACET hostname since today"
                 }
               ]
@@ -1086,7 +1086,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Processes' FACET hostname since this week"
                 }
               ]
@@ -1110,7 +1110,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Processes' FACET hostname since this week"
                 }
               ]
@@ -1134,7 +1134,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Processes' FACET hostname since this month"
                 }
               ]
@@ -1158,7 +1158,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Processes' FACET hostname since this month"
                 }
               ]
@@ -1204,7 +1204,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Hosts' FACET hostname since today"
                 }
               ]
@@ -1228,7 +1228,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Hosts' FACET hostname since today"
                 }
               ]
@@ -1252,7 +1252,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Hosts' FACET hostname since this week"
                 }
               ]
@@ -1276,7 +1276,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Hosts' FACET hostname since this week"
                 }
               ]
@@ -1300,7 +1300,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Hosts' FACET hostname since this month"
                 }
               ]
@@ -1324,7 +1324,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Infrastructure Hosts' FACET hostname since this month"
                 }
               ]
@@ -1370,7 +1370,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Pixie' FACET k8s.cluster.name since today"
                 }
               ]
@@ -1394,7 +1394,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Pixie' FACET k8s.cluster.name since today"
                 }
               ]
@@ -1418,7 +1418,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Pixie' FACET k8s.cluster.name since this week"
                 }
               ]
@@ -1442,7 +1442,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Pixie' FACET k8s.cluster.name since this week"
                 }
               ]
@@ -1466,7 +1466,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Pixie' FACET k8s.cluster.name since this month"
                 }
               ]
@@ -1490,7 +1490,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Pixie' FACET k8s.cluster.name since this month"
                 }
               ]
@@ -1536,7 +1536,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Network Monitoring' FACET instrumentation.name since today"
                 }
               ]
@@ -1560,7 +1560,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Network Monitoring' FACET instrumentation.name since today"
                 }
               ]
@@ -1584,7 +1584,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Network Monitoring' FACET instrumentation.name since this week"
                 }
               ]
@@ -1608,7 +1608,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Network Monitoring' FACET instrumentation.name since this week"
                 }
               ]
@@ -1632,7 +1632,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Network Monitoring' FACET instrumentation.name since this month"
                 }
               ]
@@ -1656,7 +1656,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Network Monitoring' FACET instrumentation.name since this month"
                 }
               ]
@@ -1702,7 +1702,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Logging' FACET labels.app since today"
                 }
               ]
@@ -1726,7 +1726,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Logging' FACET labels.app since today"
                 }
               ]
@@ -1750,7 +1750,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Logging' FACET labels.app since this week"
                 }
               ]
@@ -1774,7 +1774,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Logging' FACET labels.app since this week"
                 }
               ]
@@ -1798,7 +1798,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Logging' FACET labels.app since this month"
                 }
               ]
@@ -1822,7 +1822,7 @@
               },
               "nrqlQueries": [
                 {
-                  "accountId": 1606862,
+                  "accountId": 0,
                   "query": "FROM Metric SELECT sum(newrelic.ingest) as 'Ingest GB' WHERE ingestType='Logging' FACET labels.app since this month"
                 }
               ]
