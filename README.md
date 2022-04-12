@@ -38,7 +38,8 @@ Copy the `ingest-metric-script-example.js` file and update as indicated below:
 ## installation
 Once you have updated the script according to your needs, create the monitor as follows:
   1. Select Endpoint availability (Scripted API)
-  2. Name your monitor and configure the Period
+  2. Select Node 10 Runtime
+  3. Name your monitor and configure the Period
   4. Select a location (any but only _one_)
   5. Validate the script and confirm no errors
   6. Save the monitor
