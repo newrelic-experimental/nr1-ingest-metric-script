@@ -1,4 +1,3 @@
-var $http = require('request')
 var assert = require('assert')
 var Q = require('q')
 
@@ -51,9 +50,12 @@ function call (NRQL, TYPE, FACET_OBJECT) {
     if (error) {
       console.log(error.stack)
     }
-    assert.strictEqual(response.statusCode, 200, 'invalid response from insights')
-    // console.log(body)
-
+    
+    //console.log(body)
+    //console.log(response)
+    
+    assert.strictEqual(response.statusCode, 200, 'invalid response from insights XX')
+    
     // forEach refers to each objects in the facets array
     body.facets.forEach(function (bytecountestimate) {
       JSONARR.push({
@@ -71,7 +73,7 @@ function call (NRQL, TYPE, FACET_OBJECT) {
     })
     
     if (!Array.isArray(JSONARR) || !JSONARR.length) {
-      console.log('Empty Array!')
+      console.log('[No data Found for type:' + TYPE + '] \n ')
     } else {
       console.log('---------------------------------------------------------------------')
       console.log(JSONARR)
@@ -96,17 +98,15 @@ function call (NRQL, TYPE, FACET_OBJECT) {
     }
     return Q.Promise
   }
+  var url = 'https://insights-api.newrelic.com/v1/accounts/' + ACCOUNTID + '/query';
   var options = {
-    url: 'https://insights-api.newrelic.com/v1/accounts/' + ACCOUNTID + '/query',
-    method: 'GET',
-    json: true,
     headers: {
       'Accept': 'application/json',
       'X-Query-Key': QUERYKEY
     },
-    qs: {
+    searchParams: {
       'nrql': NRQL
     }
   }
-  $http.get(options, callback)
+  $http.get(url, options, callback);
 }
